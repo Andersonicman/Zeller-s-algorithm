@@ -52,6 +52,7 @@ def zeller(gun , ay , yil):
     # formul
     kalan = (gun + aykodu + yeniyil + yeniyil//4 + yilkodu) % 7
 
+    # gün belirleme
     if kalan == 0:
         print("Pazar")
     elif kalan == 1:
